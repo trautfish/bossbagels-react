@@ -1,10 +1,12 @@
-import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
 	return (
-		<div className='App'>
-			<h1>Tailwind CSS - it's all set!</h1>
-		</div>
+		<>
+			<Navbar />
+			<Hero />
+		</>
 	);
 }
 
