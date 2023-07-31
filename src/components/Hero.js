@@ -7,7 +7,10 @@ const Hero = () => {
 			<h1 className='lg:text-7xl md:text-6xl sm:text-3xl font-black mb-14'>
 				BOSS MONSTER BAGELS
 			</h1>
-			<Link className='py-6 px-10 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 transition duration-500 ease-in-out flex items-center font-mono'>
+			<Link
+				className='py-6 px-10 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 transition duration-500 ease-in-out flex items-center font-mono'
+				to='/'
+			>
 				Order Now
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
