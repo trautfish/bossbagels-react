@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bossbagels-react/static/css/main.a6bf5c51.css",
+    "main.js": "/bossbagels-react/static/js/main.70a33ec4.js",
+    "static/media/bagel_flight.jpg": "/bossbagels-react/static/media/bagel_flight.ff2406d700ab48ec749f.jpg",
+    "static/media/plain_bagel.jpg": "/bossbagels-react/static/media/plain_bagel.ebc1144b9a9f39addffb.jpg",
+    "index.html": "/bossbagels-react/index.html",
+    "main.a6bf5c51.css.map": "/bossbagels-react/static/css/main.a6bf5c51.css.map",
+    "main.70a33ec4.js.map": "/bossbagels-react/static/js/main.70a33ec4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6bf5c51.css",
+    "static/js/main.70a33ec4.js"
+  ]
+}
