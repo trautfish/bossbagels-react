@@ -2,13 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-img {
-	max-width: 65%;
-	height: auto;
-}
-
 .menu-card {
-	@apply flex flex-col justify-center items-center bg-white py-20 font-mono;
+	@apply max-w-xs rounded overflow-hidden bg-slate-100 shadow-lg border-none;
 }
 
 .center-content {

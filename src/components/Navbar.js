@@ -7,7 +7,7 @@ const Navbar = ({ toggle }) => {
 			className='flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono'
 			role='navigation'
 		>
-			<Link to='/' className='pl-8 '>
+			<Link to='/' className='pl-8 text-lg font-bold'>
 				BMB
 			</Link>
 			<div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
@@ -34,7 +34,7 @@ const Navbar = ({ toggle }) => {
 				<Link className='p-4' to='/about'>
 					About
 				</Link>
-				<Link className='p-4' to='/'>
+				<Link className='p-4' to='/contact'>
 					Contact
 				</Link>
 			</div>
