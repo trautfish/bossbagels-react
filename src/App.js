@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages';
 import Menu from './pages/menu';
 import About from './pages/about';
+import Contact from './pages/contact';
 import { Switch, Route } from 'react-router-dom';
 import Dropdown from './components/Dropdown';
 
@@ -38,6 +39,7 @@ function App() {
 				<Route path='/' exact component={Home} />
 				<Route path='/menu' component={Menu} />
 				<Route path='/about' component={About} />
+				<Route path='/contact' component={Contact} />
 			</Switch>
 			<Footer />
 		</>
